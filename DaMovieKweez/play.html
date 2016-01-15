@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Play | Movie App</title>
+
+	   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+	    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+	   
+</head>
+
+<body>
+	 <div class="container">
+
+	 	 <div class="page-header">
+        <h1>Movie APP</h1>
+        <p class="lead">Baseline will be here.</p>
+      </div>
+
+
+ 	 <div class="row">
+      
+        		<div id='app'>
+				<!-- MAIN !-->
+			  <div class="col-md-4 main">
+				<img src="https://image.tmdb.org/t/p/w300//oXUWEc5i3wYyFnL1Ycu8ppxxPvs.jpg" width="300px">
+				<br><span class="movie-title">The Relevant</span>
+			  </div>
+			  
+
+			  <div class="col-md-4 main">
+
+			  		<img src="https://image.tmdb.org/t/p/w300//jToSMocaCaS5YnuOJVqQ7S7pr4Q.jpg" width="300px">
+			  		<br><span class="movie-actor">Leonardo DiCaprio</span>
+			  </div>
+
+			   <div class="col-md-4 main">
+
+
+			   <h2>Is this actor in this movie ? </h2>	
+
+			 	<div class="answer">
+				<button type="button" class="btn btn-danger">No</button>
+				<button type="button" class="btn btn-success">Yes</button>
+
+				</div>
+
+			   </div>
+
+
+			
+		
+
+				</div>
+
+
+
+
+
+        </div>
+        
+
+
+
+  
+
+
+
+ 
+
+  
+
+    </div><!-- /.container -->
+
+
+	<!-- LIBRAIRIES -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js"></script>
+	<!-- /LIBRAIRIES -->
+
+	<!-- Scripts de l'app -->
+	<script src='scripts/models/question-model.js'></script>
+	<script src="lib/Backbone.LocalStorage.js"></script>
+	<script src='scripts/collections/question-collection.js'></script>
+	<script src='scripts/views/question-list.js'></script>
+	<script src='scripts/app.js'></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+	<!-- /Scripts -->
+</body>
+</html>
