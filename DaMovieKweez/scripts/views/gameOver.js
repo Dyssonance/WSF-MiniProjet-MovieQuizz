@@ -1,4 +1,4 @@
-var GameOver = Backbone.View.extend({
+var GameOverView = Backbone.View.extend({
 	el:'',
 
 	initialize: function() {

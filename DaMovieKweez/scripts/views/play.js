@@ -1,5 +1,5 @@
 var PlayView = Backbone.View.extend({
-	el:'',
+	el:'.container',
 
 	events:{
 		'change input': 'readAnswer'
