@@ -5,7 +5,8 @@ var HomeView = Backbone.View.extend({
 	},
 
 	initialize: function() {
-
+		console.log('Hello World');
+//		this.router = new.Router();
 		this.render();
 
 	},
